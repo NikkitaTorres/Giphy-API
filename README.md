@@ -1,7 +1,7 @@
 # Giphy-API
 
 
-#### By Nikkita Torres
+#### By Nikkita Torres & Aaron Mejia
 
 ## Technologies Used
 
