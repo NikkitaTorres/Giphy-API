@@ -1,4 +1,4 @@
-# New-Template
+# Giphy-API
 
 
 #### By Nikkita Torres

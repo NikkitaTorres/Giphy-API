@@ -1,9 +1,36 @@
-<!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>New Template</title>
+  <title>Giphy-API</title>
 </head>
 <body>
- 
+
+  <form id="gifSearchForm">
+    <label for="gifSearchBox">Enter a keyword here:</label>
+    <input type="text" id="gifSearchBox" required>
+    <br>
+    <button type="submit">Search for GIF</button>
+  </form>
+
+  <button id="trendingButton">Get Trending GIF</button>
+  <button id="randomButton">Get Random GIF</button>
+
+  <br><br>
+  <form id="gifUploadForm">
+    <p><em>Note that the current configuration only allows 10 uploads per day, and that GIPHY only supports GIF, MP4, MOV, or WebM filetypes.</em></p>
+    <label for="gifUploadUrl">Enter a URL here to upload a GIF to GIPHY:</label>
+    <input type="text" id="gifUploadUrl" required>
+    <br>
+    <label for="gifTags">Enter tags for GIF here, separated by commas:</label>
+    <input type="text" id="gifTags" required>
+    <br>
+    <button type="submit">Upload GIF</button>
+  </form>
+
+  <div id="errorDiv"></div>
+
+  <div id="displayDiv">
+
+  </div>
+
 </body>
 </html>
